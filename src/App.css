@@ -1,0 +1,51 @@
+.imagehover img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagehover img:hover {
+    transform: scale(1.08);
+}
+.carousel *{
+    margin-top: 2rem;
+}
+.FooterUl li{
+list-style-type: none;
+line-height: 2;
+color: gray;
+}
+.FooterUl{
+    padding: 0px;
+}
+.FooterUl a{
+    text-decoration: none;
+    color: gray
+}
+
+input:focus{
+    outline: none;
+}
+.navli{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 0.15em;   
+}
+.heading{
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+/* .contactbox1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:1rem ;
+    align-items: center;
+} */
+.getcolor{
+    color: rgb(147, 192, 27) !important;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    width: 100%;
+}
